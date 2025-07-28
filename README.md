@@ -18,11 +18,13 @@
 <sub><i>🕒 Last Updated: <b>Mon Jul 28 08:35:27 UTC 2025</b></i></sub>
 
 <table>
-  <tr><td align="right">🔢 <b>Total Commits</b></td><td>26</td></tr>
-  <tr><td align="right">📅 <b>Active Days</b></td><td>10</td></tr>
-  <tr><td align="right">📈 <b>Average per Day</b></td><td>2</td></tr>
-  <tr><td align="right">🧾 <b>Last Commit</b></td><td>2025-03-03</td></tr>
-  <tr><td align="right">🏆 <b>Top Repository</b></td><td><code>notepad_basic_in_QT_Framework</code> (8 commits)</td></tr>
+        <tr><td><span class="emoji">✅</span>Maintain boilerplates for C++, Java, Python, Kotlin, HTML, Gdscript with modular and clean architecture</td></tr>
+        <tr><td><span class="emoji">✅</span>Qt GUI project structures</td></tr>
+        <tr><td><span class="emoji">📱</span>Android Studio project templates and development guides</td></tr>
+        <tr><td><span class="emoji">🎮</span>Godot 2D and 3D game project templates and development resources</td></tr>
+        <tr><td><span class="emoji">🔧</span>CLI-based scaffolding tool</td></tr>
+        <tr><td><span class="emoji">📐</span>Contribution & style guides</td></tr>
+        <tr><td><span class="emoji">🌐</span>Multi-language README support</td></tr>
 </table>
 
 </div>
