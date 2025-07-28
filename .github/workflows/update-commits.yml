@@ -74,12 +74,20 @@ jobs:
           echo "  }" >> commit_summary.json
           echo "}" >> commit_summary.json
 
-      - name: Commit & Push
+      - name: Setup Python  # <<< EKLENDİ
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Generate README.md from JSON  # <<< EKLENDİ
+        run: python generate_readme.py
+
+      - name: Commit & Push README.md  # <<< EKLENDİ
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add commit_summary.json
-          git commit -m "Güncellenmiş commit özeti" || exit 0
+          git add README.md commit_summary.json
+          git commit -m "Otomatik güncellenmiş README ve commit özeti" || exit 0
           git push
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
