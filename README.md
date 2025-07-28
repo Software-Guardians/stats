@@ -15,14 +15,14 @@
 <div align="center">
 
 ### 📊 Organization Activity Summary  
-<sub><i>🕒 Last Updated: <b>Mon Jul 28 08:27:58 UTC 2025</b></i></sub>
+<sub><i>🕒 Last Updated: <b>Mon Jul 28 08:35:27 UTC 2025</b></i></sub>
 
 <table>
-  <tr><td align="right">🔢 <b>Total Commits</b></td><td>36</td></tr>
-  <tr><td align="right">📅 <b>Active Days</b></td><td>11</td></tr>
-  <tr><td align="right">📈 <b>Average per Day</b></td><td>3</td></tr>
+  <tr><td align="right">🔢 <b>Total Commits</b></td><td>26</td></tr>
+  <tr><td align="right">📅 <b>Active Days</b></td><td>10</td></tr>
+  <tr><td align="right">📈 <b>Average per Day</b></td><td>2</td></tr>
   <tr><td align="right">🧾 <b>Last Commit</b></td><td>2025-03-03</td></tr>
-  <tr><td align="right">🏆 <b>Top Repository</b></td><td><code>stats</code> (10 commits)</td></tr>
+  <tr><td align="right">🏆 <b>Top Repository</b></td><td><code>notepad_basic_in_QT_Framework</code> (8 commits)</td></tr>
 </table>
 
 </div>
@@ -42,7 +42,6 @@
   </tr>  <tr><td><code>notepad_basic_in_QT_Framework</code></td><td align="center">8</td></tr>
   <tr><td><code>Godot-Third-Person-Controller-First-Template</code></td><td align="center">2</td></tr>
   <tr><td><code>CalculatorAppinAndroidwithKotlin</code></td><td align="center">6</td></tr>
-  <tr><td><code>stats</code></td><td align="center">10</td></tr>
   <tr><td><code>FoodDeliveryAppKotlinAssignment</code></td><td align="center">6</td></tr>
   <tr><td><code>ZihinDefteriApp</code></td><td align="center">4</td></tr>
 </table>
