@@ -1,0 +1,37 @@
+name: Saatlik Commit Sayısı Güncellemesi
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Her saat başı UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo'yu klonla
+        uses: actions/checkout@v3
+
+      - name: GitHub CLI'yi kur
+        run: |
+          sudo apt update
+          sudo apt install gh jq -y
+
+      - name: Commit sayılarını topla
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "{" > commit_summary.json
+          echo "\"timestamp\": \"$(date -u)\"," >> commit_summary.json
+          echo "\"total_commits\": $(gh repo list Software-Guardians --limit 100 --json name -q '.[].name' | \
+            xargs -I{} gh api repos/Software-Guardians/{}/stats/commit_activity | \
+            jq '[.[] | .total] | add' | jq -s 'add')" >> commit_summary.json
+          echo "}" >> commit_summary.json
+
+      - name: Commit ve Push Et
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add commit_summary.json
+          git commit -m "Saatlik otomatik commit güncellemesi"
+          git push
