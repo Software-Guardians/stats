@@ -23,7 +23,7 @@ jobs:
           mkdir temp
           cd temp
 
-          gh repo list Software-Guardians --limit 100 --json name --jq '.[].name' > ../repo_list.txt
+          gh repo list Software-Guardians --limit 100 --json name --jq '.[].name' | grep -v "^stats$" > ../repo_list.txt
 
           cd ..
           total_commits=0
