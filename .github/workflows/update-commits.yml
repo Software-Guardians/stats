@@ -1,20 +1,16 @@
 name: Günlük Commit Özeti
-
 on:
   schedule:
     - cron: "0 */2 * * *" # 2 saatte bir
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
   generate-summary:
     runs-on: ubuntu-latest
     steps:
       - name: Repo'yu klonla
         uses: actions/checkout@v3
-
       - name: Commit verilerini topla
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -22,67 +18,80 @@ jobs:
           echo "Veriler toplanıyor..."
           mkdir temp
           cd temp
-
           gh repo list Software-Guardians --limit 100 --json name --jq '.[].name' | grep -v "^stats$" > ../repo_list.txt
-
           cd ..
           total_commits=0
           unique_days=()
           declare -A repo_commits
           last_commit=""
-
+          # Son 30 günlük ve günlük commit sayısı için
+          thirty_days_ago=$(date -d "30 days ago" --iso-8601)
+          today_start=$(date --iso-8601)
+          monthly_commits=0
+          daily_commits=0
+          latest_commit_date=""
+          
           while IFS= read -r repo; do
             echo "İşleniyor: $repo"
             gh repo clone Software-Guardians/$repo -- --depth=100 > /dev/null 2>&1 || continue
             cd "$repo" || continue
-
             commit_count=$(git rev-list --all --count)
             repo_commits["$repo"]=$commit_count
             total_commits=$((total_commits + commit_count))
-
-            dates=$(git log --pretty=format:'%ad' --date=short)
+            
+            # Son 30 günlük commit'leri say (tüm branch'lerde)
+            recent_commits=$(git rev-list --all --since="$thirty_days_ago" --count 2>/dev/null || echo "0")
+            monthly_commits=$((monthly_commits + recent_commits))
+            
+            # Bugünkü commit'leri say (tüm branch'lerde)
+            today_commits=$(git rev-list --all --since="$today_start" --count 2>/dev/null || echo "0")
+            daily_commits=$((daily_commits + today_commits))
+            
+            # En son commit tarihini bul (tüm branch'lerde)
+            latest_in_repo=$(git log --all --pretty=format:'%ad' --date=short -n 1 2>/dev/null || echo "")
+            if [[ -n "$latest_in_repo" && ( -z "$latest_commit_date" || "$latest_in_repo" > "$latest_commit_date" ) ]]; then
+              latest_commit_date="$latest_in_repo"
+            fi
+            
+            # Tüm commit tarihlerini topla
+            dates=$(git log --all --pretty=format:'%ad' --date=short 2>/dev/null || echo "")
             while IFS= read -r d; do
-              unique_days+=("$d")
-              last_commit_date=$d
+              [[ -n "$d" ]] && unique_days+=("$d")
             done <<< "$dates"
-
             cd ..
             rm -rf "$repo"
           done < repo_list.txt
-
+          
           # Tekil günleri say
           mapfile -t uniq_days_sorted < <(printf "%s\n" "${unique_days[@]}" | sort -u)
           active_days=${#uniq_days_sorted[@]}
-          last_commit="${last_commit_date:-N/A}"
+          last_commit="${latest_commit_date:-N/A}"
           avg_per_day=$(( total_commits / (active_days > 0 ? active_days : 1) ))
-
+          
           echo "{" > commit_summary.json
           echo "  \"timestamp\": \"$(date -u)\"," >> commit_summary.json
           echo "  \"total_commits\": $total_commits," >> commit_summary.json
           echo "  \"active_days\": $active_days," >> commit_summary.json
           echo "  \"average_per_day\": $avg_per_day," >> commit_summary.json
+          echo "  \"monthly_commits\": $monthly_commits," >> commit_summary.json
+          echo "  \"daily_commits\": $daily_commits," >> commit_summary.json
           echo "  \"last_commit\": \"$last_commit\"," >> commit_summary.json
           echo "  \"repos\": {" >> commit_summary.json
-
           i=0
           for r in "${!repo_commits[@]}"; do
             comma=","
             [[ $((++i)) == ${#repo_commits[@]} ]] && comma=""
             echo "    \"$r\": ${repo_commits[$r]}$comma" >> commit_summary.json
           done
-
           echo "  }" >> commit_summary.json
           echo "}" >> commit_summary.json
-
-      - name: Setup Python  # <<< EKLENDİ
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
-
-      - name: Generate README.md from JSON  # <<< EKLENDİ
+      - name: Generate README.md from JSON
         run: python generate_readme.py
-
-      - name: Commit & Push README.md  # <<< EKLENDİ
+      - name: Commit & Push README.md
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
