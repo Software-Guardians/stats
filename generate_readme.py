@@ -92,12 +92,23 @@ We prioritize **code quality**, **simplicity**, and **consistency** across all t
 
 We welcome developers from all backgrounds and skill levels!
 
-**Steps:**
-1. 🍴 Fork the repository  
-2. 🛠️ Choose an issue or add your own improvement  
-3. 📬 Submit a pull request
+<div align="center">
+
+**Steps to contribute:**
+
+🍴 **Fork the repository**  
+🛠️ **Choose an issue or add your own improvement**  
+📬 **Submit a pull request**
 
 </div>
+
+</div>
+
 ---
-<p align="center"><i>🧱 We don't just write code — we build a strong foundation.</i></p>
+
+<div align="center">
+<br/>
+<em>🧱 <strong>We don't just write code — we build a strong foundation.</strong></em>
+<br/><br/>
+</div>
 """)
