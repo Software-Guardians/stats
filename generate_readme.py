@@ -28,8 +28,9 @@ with open('README.md', 'w', encoding='utf-8') as f:
   <img src="https://img.shields.io/badge/Monthly%20Activity-{monthly_commits}%20commits-green?style=for-the-badge"/>
 </p>
 <hr/>
+
+## 📊 Organization Activity Summary  
 <div align="center">
-### 📊 Organization Activity Summary  
 <sub><i>🕒 Last Updated: <b>{timestamp}</b></i></sub>
 <table>
   <tr><td align="right">🔢 <b>Total Commits</b></td><td>{total_commits}</td></tr>
@@ -61,15 +62,17 @@ with open('README.md', 'w', encoding='utf-8') as f:
 <br/>
 </details>
 <hr/>
-<div align="center">
+
 ## 🎯 Our Mission
+<div align="center">
 > <strong>Software Guardians</strong> is a developer collective focused on creating  
 > practical, reusable, and clean software structures.  
 > We prioritize **code quality**, **simplicity**, and **consistency** across all tools and templates.
 </div>
 <br/>
-<div align="center">
+
 ## 🛠️ Upcoming Goals
+<div align="center">
 <table>
         <tr><td><span class="emoji">✅</span>Maintain boilerplates for C++, Java, Python, Kotlin, HTML, Gdscript with modular and clean architecture</td></tr>
         <tr><td><span class="emoji">✅</span>Qt GUI project structures</td></tr>
@@ -81,9 +84,11 @@ with open('README.md', 'w', encoding='utf-8') as f:
 </table>
 </div>
 <hr/>
-<div align="center">
+
 ## 🤝 Contributing
+<div align="center">
 We welcome developers from all backgrounds and skill levels!
+
 **Steps:**
 1. 🍴 Fork the repository  
 2. 🛠️ Choose an issue or add your own improvement  
