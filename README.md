@@ -12,7 +12,7 @@
 <div align="center">
 
 ## 📊 Organization Activity Summary  
-<sub><i>🕒 Last Updated: <b>Tue Jul 29 07:30:45 UTC 2025</b></i></sub>
+<sub><i>🕒 Last Updated: <b>Tue Jul 29 07:34:17 UTC 2025</b></i></sub>
 <table>
   <tr><td align="right">🔢 <b>Total Commits</b></td><td>26</td></tr>
   <tr><td align="right">📅 <b>Active Days</b></td><td>10</td></tr>
@@ -72,11 +72,22 @@ We prioritize **code quality**, **simplicity**, and **consistency** across all t
 
 We welcome developers from all backgrounds and skill levels!
 
-**Steps:**
-1. 🍴 Fork the repository  
-2. 🛠️ Choose an issue or add your own improvement  
-3. 📬 Submit a pull request
+<div align="center">
+
+**Steps to contribute:**
+
+🍴 **Fork the repository**  
+🛠️ **Choose an issue or add your own improvement**  
+📬 **Submit a pull request**
 
 </div>
+
+</div>
+
 ---
-<p align="center"><i>🧱 We don't just write code — we build a strong foundation.</i></p>
+
+<div align="center">
+<br/>
+<em>🧱 <strong>We don't just write code — we build a strong foundation.</strong></em>
+<br/><br/>
+</div>
