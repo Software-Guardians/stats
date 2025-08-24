@@ -1,7 +1,7 @@
 name: Günlük Commit Özeti
 on:
   schedule:
-    - cron: "0 */2 * * *" # 2 saatte bir
+    - cron: "0,30 * * * *"  # Her saat başı ve 30. dakikada (yarım saatte bir)
   workflow_dispatch:
 permissions:
   contents: write
