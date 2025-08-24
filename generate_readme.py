@@ -110,25 +110,25 @@ with open('README.md', 'w', encoding='utf-8') as f:
         
         # Status belirleme
         if i == 0:
-            status = "🔥 **HOT**"
+            status = "🔥 <strong>HOT</strong>"
         elif "Godot" in repo:
-            status = "🎮 **GAME**"
+            status = "🎮 <strong>GAME</strong>"
         elif "Android" in repo or "Kotlin" in repo:
-            status = "📱 **MOBILE**"
+            status = "📱 <strong>MOBILE</strong>"
         elif "QT" in repo or "Qt" in repo:
-            status = "🛠️ **TOOL**"
+            status = "🛠️ <strong>TOOL</strong>"
         elif "Python" in repo:
-            status = "🐍 **PYTHON**"
+            status = "🐍 <strong>PYTHON</strong>"
         elif "Chat" in repo:
-            status = "💬 **CHAT**"
+            status = "💬 <strong>CHAT</strong>"
         elif "Template" in repo or "template" in repo:
-            status = "📋 **TEMPLATE**"
+            status = "📋 <strong>TEMPLATE</strong>"
         elif "Guide" in repo or "Sources" in repo:
-            status = "📚 **GUIDE**"
+            status = "📚 <strong>GUIDE</strong>"
         elif "App" in repo:
-            status = "📱 **APP**"
+            status = "📱 <strong>APP</strong>"
         else:
-            status = "⚡ **ACTIVE**"
+            status = "⚡ <strong>ACTIVE</strong>"
         
         f.write(f"""  <tr>
     <td align="center"><code>{repo}</code></td>
