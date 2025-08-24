@@ -33,10 +33,10 @@ with open('README.md', 'w', encoding='utf-8') as f:
 ---
 
 <div style="display: flex; justify-content: center; gap: 15px; margin: 20px 0;">
-  <img src="https://img.shields.io/github/last-commit/Software-Guardians/.github?color=FF6B6B&label=🔄%20Last%20Update&style=for-the-badge&logo=github&logoColor=white&labelColor=2D3748"/>
-  <img src="https://img.shields.io/badge/⚡%20Daily%20Activity-{daily_commits}%20commits-00D9FF?style=for-the-badge&labelColor=1A202C"/>
-  <img src="https://img.shields.io/badge/🚀%20Monthly%20Activity-{monthly_commits}%20commits-32CD32?style=for-the-badge&labelColor=1A202C"/>
-  <img src="https://img.shields.io/badge/🏆%20Total%20Commits-{total_commits}-FFD700?style=for-the-badge&labelColor=1A202C"/>
+  <img src="https://img.shields.io/github/last-commit/Software-Guardians/.github?color=FF6B6B&label=%F0%9F%94%84%20Last%20Update&style=for-the-badge&logo=github&logoColor=white&labelColor=2D3748"/>
+  <img src="https://img.shields.io/badge/%E2%9A%A1%20Daily%20Activity-{daily_commits}%20commits-00D9FF?style=for-the-badge&labelColor=1A202C"/>
+  <img src="https://img.shields.io/badge/%F0%9F%9A%80%20Monthly%20Activity-{monthly_commits}%20commits-32CD32?style=for-the-badge&labelColor=1A202C"/>
+  <img src="https://img.shields.io/badge/%F0%9F%8F%86%20Total%20Commits-{total_commits}-FFD700?style=for-the-badge&labelColor=1A202C"/>
 </div>
 
 ---
@@ -231,9 +231,9 @@ We are the **guardians** of code quality, simplicity, and consistency! 🛡️
 <br/>
 
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="https://img.shields.io/badge/🔥%20Contributors-Welcome-FF6B6B?style=for-the-badge&logo=github"/>
-  <img src="https://img.shields.io/badge/💡%20Ideas-Appreciated-4ECDC4?style=for-the-badge&logo=lightbulb"/>
-  <img src="https://img.shields.io/badge/🚀%20Innovation-Encouraged-FFE66D?style=for-the-badge&logo=rocket"/>
+  <img src="https://img.shields.io/badge/%F0%9F%94%A5%20Contributors-Welcome-FF6B6B?style=for-the-badge&logo=github"/>
+  <img src="https://img.shields.io/badge/%F0%9F%92%A1%20Ideas-Appreciated-4ECDC4?style=for-the-badge&logo=lightbulb"/>
+  <img src="https://img.shields.io/badge/%F0%9F%9A%80%20Innovation-Encouraged-FFE66D?style=for-the-badge&logo=rocket"/>
 </div>
 
 ---
@@ -248,7 +248,7 @@ We are the **guardians** of code quality, simplicity, and consistency! 🛡️
 
 **🛡️ GUARDIANS OF CODE QUALITY 🛡️**
 
-<img src="https://img.shields.io/badge/Made%20with-❤️%20%26%20Code-FF1744?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20%26%20Code-FF1744?style=for-the-badge"/>
 
 </div>
 """)
