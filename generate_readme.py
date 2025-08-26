@@ -248,8 +248,6 @@ We are the **guardians** of code quality, simplicity, and consistency! 🛡️
 
 **🛡️ GUARDIANS OF CODE QUALITY 🛡️**
 
-<img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20%26%20Code-FF1744?style=for-the-badge"/>
-
 </div>
 """)
 
