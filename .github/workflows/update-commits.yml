@@ -18,7 +18,7 @@ jobs:
           echo "Veriler toplanıyor..."
           mkdir temp
           cd temp
-          gh repo list Software-Guardians --limit 100 --json name --jq '.[].name' | grep -v "^stats$" > ../repo_list.txt
+          gh repo list Software-Guardians --limit 1000 --json name --jq '.[].name' | grep -v "^stats$" > ../repo_list.txt
           cd ..
           total_commits=0
           unique_days=()
@@ -34,7 +34,7 @@ jobs:
           
           while IFS= read -r repo; do
             echo "İşleniyor: $repo"
-            gh repo clone Software-Guardians/$repo -- --depth=100 > /dev/null 2>&1 || continue
+            gh repo clone Software-Guardians/$repo -- --depth=1000 > /dev/null 2>&1 || continue
             cd "$repo" || continue
             commit_count=$(git rev-list --all --count)
             repo_commits["$repo"]=$commit_count
