@@ -11,33 +11,33 @@
 
 <div style="display: flex; justify-content: center; gap: 15px; margin: 20px 0;">
   <img src="https://img.shields.io/github/last-commit/Software-Guardians/.github?color=FF6B6B&label=%F0%9F%94%84%20Last%20Update&style=for-the-badge&logo=github&logoColor=white&labelColor=2D3748"/>
-  <img src="https://img.shields.io/badge/%E2%9A%A1%20Daily%20Activity-0%20commits-00D9FF?style=for-the-badge&labelColor=1A202C"/>
-  <img src="https://img.shields.io/badge/%F0%9F%9A%80%20Monthly%20Activity-0%20commits-32CD32?style=for-the-badge&labelColor=1A202C"/>
-  <img src="https://img.shields.io/badge/%F0%9F%8F%86%20Total%20Commits-283-FFD700?style=for-the-badge&labelColor=1A202C"/>
+  <img src="https://img.shields.io/badge/%E2%9A%A1%20Daily%20Activity-1%20commits-00D9FF?style=for-the-badge&labelColor=1A202C"/>
+  <img src="https://img.shields.io/badge/%F0%9F%9A%80%20Monthly%20Activity-19%20commits-32CD32?style=for-the-badge&labelColor=1A202C"/>
+  <img src="https://img.shields.io/badge/%F0%9F%8F%86%20Total%20Commits-302-FFD700?style=for-the-badge&labelColor=1A202C"/>
 </div>
 
 ---
 
 ## 📊 **ORGANIZATION STATS** ⚡
 
-*🕒 Real-time Update: **Mon Jan 26 16:41:42 UTC 2026***
+*🕒 Real-time Update: **Mon Jan 26 17:35:49 UTC 2026***
 
 <table align="center">
   <tr>
     <td align="center" width="200">
       <img src="https://img.icons8.com/fluency/48/000000/code.png"/>
       <br/><strong>Total Commits</strong>
-      <br/><span style="font-size: 24px; color: #FF6B6B;">283</span>
+      <br/><span style="font-size: 24px; color: #FF6B6B;">302</span>
     </td>
     <td align="center" width="200">
       <img src="https://img.icons8.com/fluency/48/000000/calendar.png"/>
       <br/><strong>Active Days</strong>
-      <br/><span style="font-size: 24px; color: #4ECDC4;">78</span>
+      <br/><span style="font-size: 24px; color: #4ECDC4;">84</span>
     </td>
     <td align="center" width="200">
       <img src="https://img.icons8.com/fluency/48/000000/lightning-bolt.png"/>
       <br/><strong>Today's Power</strong>
-      <br/><span style="font-size: 24px; color: #FFE66D;">0 commits</span>
+      <br/><span style="font-size: 24px; color: #FFE66D;">1 commits</span>
     </td>
   </tr>
   <tr>
@@ -55,7 +55,7 @@
     <td align="center">
       <img src="https://img.icons8.com/fluency/48/000000/rocket.png"/>
       <br/><strong>Last 30 Days</strong>
-      <br/><span style="font-size: 24px; color: #E74C3C;">0</span>
+      <br/><span style="font-size: 24px; color: #E74C3C;">19</span>
     </td>
   </tr>
 </table>
@@ -90,163 +90,163 @@
     <td align="center">📱 <strong>MOBILE</strong></td>
   </tr>
   <tr>
+    <td align="center"><code>testosteroneGUI</code></td>
+    <td align="center"><img src="https://img.shields.io/badge/19-9B59B6?style=for-the-badge"/></td>
+    <td align="center">⚡ <strong>ACTIVE</strong></td>
+  </tr>
+  <tr>
     <td align="center"><code>Godot-Third-Person-First-Game</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/16-9B59B6?style=for-the-badge"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/16-E74C3C?style=for-the-badge"/></td>
     <td align="center">🎮 <strong>GAME</strong></td>
   </tr>
   <tr>
     <td align="center"><code>Readme.md-File-Creator-With-AI-Python</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/15-E74C3C?style=for-the-badge"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/15-F39C12?style=for-the-badge"/></td>
     <td align="center">🐍 <strong>PYTHON</strong></td>
   </tr>
   <tr>
     <td align="center"><code>Sorting_Algorithms</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/11-F39C12?style=for-the-badge"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/11-1ABC9C?style=for-the-badge"/></td>
     <td align="center">⚡ <strong>ACTIVE</strong></td>
   </tr>
   <tr>
     <td align="center"><code>Sample-Software-Technology-Standards</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/10-1ABC9C?style=for-the-badge"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/10-3498DB?style=for-the-badge"/></td>
     <td align="center">⚡ <strong>ACTIVE</strong></td>
   </tr>
   <tr>
     <td align="center"><code>notepad_basic_in_QT_Framework</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/8-3498DB?style=for-the-badge"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/8-E67E22?style=for-the-badge"/></td>
     <td align="center">🛠️ <strong>TOOL</strong></td>
   </tr>
   <tr>
     <td align="center"><code>CalculatorAppinAndroidwithKotlin</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/6-E67E22?style=for-the-badge"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/6-8E44AD?style=for-the-badge"/></td>
     <td align="center">📱 <strong>MOBILE</strong></td>
   </tr>
   <tr>
     <td align="center"><code>Python-Basic-Template-3</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/6-8E44AD?style=for-the-badge"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/6-27AE60?style=for-the-badge"/></td>
     <td align="center">🐍 <strong>PYTHON</strong></td>
   </tr>
   <tr>
     <td align="center"><code>FoodDeliveryAppKotlinAssignment</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/6-27AE60?style=for-the-badge"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/6-D35400?style=for-the-badge"/></td>
     <td align="center">📱 <strong>MOBILE</strong></td>
   </tr>
   <tr>
     <td align="center"><code>Godot-MultiUser-Image-Share-Template</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/5-D35400?style=for-the-badge"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/5-2ECC71?style=for-the-badge"/></td>
     <td align="center">🎮 <strong>GAME</strong></td>
   </tr>
   <tr>
     <td align="center"><code>Object_Detection_With_Color_GUI</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/5-2ECC71?style=for-the-badge"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/5-FF6B6B?style=for-the-badge"/></td>
     <td align="center">⚡ <strong>ACTIVE</strong></td>
   </tr>
   <tr>
     <td align="center"><code>AndroidJetpackComposeRetrofitPhotoViewer</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/4-FF6B6B?style=for-the-badge"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/4-4ECDC4?style=for-the-badge"/></td>
     <td align="center">📱 <strong>MOBILE</strong></td>
   </tr>
   <tr>
     <td align="center"><code>Python-Basic-Template-1</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/4-4ECDC4?style=for-the-badge"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/4-FFE66D?style=for-the-badge"/></td>
     <td align="center">🐍 <strong>PYTHON</strong></td>
   </tr>
   <tr>
     <td align="center"><code>Godot-Best-Free-Beginner-Sources</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/4-FFE66D?style=for-the-badge"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/4-9B59B6?style=for-the-badge"/></td>
     <td align="center">🎮 <strong>GAME</strong></td>
   </tr>
   <tr>
     <td align="center"><code>ZihinDefteriApp</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/4-9B59B6?style=for-the-badge"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/4-E74C3C?style=for-the-badge"/></td>
     <td align="center">📱 <strong>APP</strong></td>
   </tr>
   <tr>
     <td align="center"><code>Godot-Third-Person-Controller-First-Template</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/3-E74C3C?style=for-the-badge"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/3-F39C12?style=for-the-badge"/></td>
     <td align="center">🎮 <strong>GAME</strong></td>
   </tr>
   <tr>
     <td align="center"><code>GenymotionLinuxInstallScript</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/3-F39C12?style=for-the-badge"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/3-1ABC9C?style=for-the-badge"/></td>
     <td align="center">⚡ <strong>ACTIVE</strong></td>
   </tr>
   <tr>
     <td align="center"><code>Python-Basic-Template-4</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/3-1ABC9C?style=for-the-badge"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/3-3498DB?style=for-the-badge"/></td>
     <td align="center">🐍 <strong>PYTHON</strong></td>
   </tr>
   <tr>
     <td align="center"><code>C-programming-language-Lesson-1</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/3-3498DB?style=for-the-badge"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/3-E67E22?style=for-the-badge"/></td>
     <td align="center">⚡ <strong>ACTIVE</strong></td>
   </tr>
   <tr>
     <td align="center"><code>NotebookApplication</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/2-E67E22?style=for-the-badge"/></td>
-    <td align="center">📱 <strong>APP</strong></td>
-  </tr>
-  <tr>
-    <td align="center"><code>ExpenseTrackingApp</code></td>
     <td align="center"><img src="https://img.shields.io/badge/2-8E44AD?style=for-the-badge"/></td>
     <td align="center">📱 <strong>APP</strong></td>
   </tr>
   <tr>
-    <td align="center"><code>Python-Final-Project</code></td>
+    <td align="center"><code>ExpenseTrackingApp</code></td>
     <td align="center"><img src="https://img.shields.io/badge/2-27AE60?style=for-the-badge"/></td>
+    <td align="center">📱 <strong>APP</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><code>Python-Final-Project</code></td>
+    <td align="center"><img src="https://img.shields.io/badge/2-D35400?style=for-the-badge"/></td>
     <td align="center">🐍 <strong>PYTHON</strong></td>
   </tr>
   <tr>
     <td align="center"><code>DummyJsonPhotoAPITest</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/2-D35400?style=for-the-badge"/></td>
-    <td align="center">⚡ <strong>ACTIVE</strong></td>
-  </tr>
-  <tr>
-    <td align="center"><code>FirebaseUserAuthenticationWithReactNative</code></td>
     <td align="center"><img src="https://img.shields.io/badge/2-2ECC71?style=for-the-badge"/></td>
     <td align="center">⚡ <strong>ACTIVE</strong></td>
   </tr>
   <tr>
-    <td align="center"><code>Simple-Godot-Multiplayer-Chat</code></td>
+    <td align="center"><code>FirebaseUserAuthenticationWithReactNative</code></td>
     <td align="center"><img src="https://img.shields.io/badge/2-FF6B6B?style=for-the-badge"/></td>
+    <td align="center">⚡ <strong>ACTIVE</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><code>Simple-Godot-Multiplayer-Chat</code></td>
+    <td align="center"><img src="https://img.shields.io/badge/2-4ECDC4?style=for-the-badge"/></td>
     <td align="center">🎮 <strong>GAME</strong></td>
   </tr>
   <tr>
     <td align="center"><code>Docker-Usefully-Commands</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/2-4ECDC4?style=for-the-badge"/></td>
-    <td align="center">⚡ <strong>ACTIVE</strong></td>
-  </tr>
-  <tr>
-    <td align="center"><code>KPSS-Practice-Worksheet-Example</code></td>
     <td align="center"><img src="https://img.shields.io/badge/2-FFE66D?style=for-the-badge"/></td>
     <td align="center">⚡ <strong>ACTIVE</strong></td>
   </tr>
   <tr>
-    <td align="center"><code>Python-Basic-Template-2</code></td>
+    <td align="center"><code>KPSS-Practice-Worksheet-Example</code></td>
     <td align="center"><img src="https://img.shields.io/badge/2-9B59B6?style=for-the-badge"/></td>
+    <td align="center">⚡ <strong>ACTIVE</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><code>Python-Basic-Template-2</code></td>
+    <td align="center"><img src="https://img.shields.io/badge/2-E74C3C?style=for-the-badge"/></td>
     <td align="center">🐍 <strong>PYTHON</strong></td>
   </tr>
   <tr>
     <td align="center"><code>Chatbot</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/2-E74C3C?style=for-the-badge"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/2-F39C12?style=for-the-badge"/></td>
     <td align="center">💬 <strong>CHAT</strong></td>
   </tr>
   <tr>
     <td align="center"><code>Dataset_Scripts</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/1-F39C12?style=for-the-badge"/></td>
-    <td align="center">⚡ <strong>ACTIVE</strong></td>
-  </tr>
-  <tr>
-    <td align="center"><code>Search_Algorithms_Visualizer</code></td>
     <td align="center"><img src="https://img.shields.io/badge/1-1ABC9C?style=for-the-badge"/></td>
     <td align="center">⚡ <strong>ACTIVE</strong></td>
   </tr>
   <tr>
-    <td align="center"><code>IMDB_Sentiment_Analysis_NLP</code></td>
+    <td align="center"><code>Search_Algorithms_Visualizer</code></td>
     <td align="center"><img src="https://img.shields.io/badge/1-3498DB?style=for-the-badge"/></td>
     <td align="center">⚡ <strong>ACTIVE</strong></td>
   </tr>
   <tr>
-    <td align="center"><code>testosteroneGUI</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/0-E67E22?style=for-the-badge"/></td>
+    <td align="center"><code>IMDB_Sentiment_Analysis_NLP</code></td>
+    <td align="center"><img src="https://img.shields.io/badge/1-E67E22?style=for-the-badge"/></td>
     <td align="center">⚡ <strong>ACTIVE</strong></td>
   </tr>
 </table>
