@@ -20,7 +20,7 @@
 
 ## 📊 **ORGANIZATION STATS** ⚡
 
-*🕒 Real-time Update: **Tue Jan 27 13:04:25 UTC 2026***
+*🕒 Real-time Update: **Tue Jan 27 14:03:03 UTC 2026***
 
 <table align="center">
   <tr>
@@ -90,7 +90,7 @@
     <td align="center">📱 <strong>MOBILE</strong></td>
   </tr>
   <tr>
-    <td align="center"><code>testosteroneGUI</code></td>
+    <td align="center"><code>TestosteroneGUI</code></td>
     <td align="center"><img src="https://img.shields.io/badge/19-9B59B6?style=for-the-badge"/></td>
     <td align="center">⚡ <strong>ACTIVE</strong></td>
   </tr>
