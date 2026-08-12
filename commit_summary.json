@@ -1,7 +1,7 @@
 {
-  "timestamp": "Wed Aug 12 02:24:42 UTC 2026",
-  "total_commits": 345,
-  "active_days": 93,
+  "timestamp": "Wed Aug 12 04:23:38 UTC 2026",
+  "total_commits": 334,
+  "active_days": 90,
   "average_per_day": 3,
   "monthly_commits": 0,
   "daily_commits": 0,
@@ -11,8 +11,6 @@
     "NotebookApplication": 2,
     "Search_Algorithms_Visualizer": 1,
     "notepad_basic_in_QT_Framework": 8,
-    "Godot-Third-Person-Controller-First-Template": 3,
-    "ExpenseTrackingApp": 2,
     "Python-Final-Project": 2,
     "DummyJsonPhotoAPITest": 2,
     "hacker-how-to": 90,
@@ -40,7 +38,6 @@
     "AI-Based-Auto-Video-Importer-for-Youtube": 36,
     "Android-Studio-Vocabulary-Save-and-Study-App-Template": 20,
     "Taret123": 4,
-    "FoodDeliveryAppKotlinAssignment": 6,
     "Godot-Best-Free-Beginner-Sources": 4,
     "C-programming-language-Lesson-1": 3,
     "ZihinDefteriApp": 4
